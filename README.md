@@ -11,7 +11,7 @@ This is a John Hopkins - Coursera course project submission. Data source: http:/
     * README.md -- This is what you are reading currently
     * codebook.md -- Describes the variables, the data, and transformations that I did to clean up the data
     * run_analysis.R -- actual code
-    * second_tidy.txt -- output file from run_analysis script
+    * second-tidy.txt -- output file from run_analysis script
     * data_files/ -- All the necessary data files for the script downloaded from the data source
 
 
@@ -27,7 +27,7 @@ Recap on the goal of run_analysis.R as follows:
 
 All the data files (downloaded from the data source above) called by the script are available in this repo in the *data_files* directory for convenience. Note that the *dplyr* packaged is used in this script.
 
-The script outputs a "second_tidy.txt" file in the working directory.
+The script outputs a "second-tidy.txt" file in the working directory.
 
 
 ### What the script does
@@ -49,5 +49,5 @@ The script outputs a "second_tidy.txt" file in the working directory.
         
     5.  Step 5
         i. Create a second, independent tidy data set with the average of each variable for each activity and each subject using aggregate().
-        ii. Save second_data_set_tidy as a .txt file under "second_tidy.txt" filename in the working directory.
+        ii. Save second_data_set_tidy as a .txt file under "second-tidy.txt" filename in the working directory.
 

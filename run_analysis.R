@@ -43,6 +43,6 @@ run_analysis <- function() {
     #arranging second_data_set by the Subject for easy interpretation of the data set
     second_data_set_tidy <- arrange(second_data_set, subjects)
     
-    #saving second_data_set_tidy as a .txt file under "second_tidy.txt" filename
-    write.table(second_data_set_tidy, "second_tidy.txt", row.names=F, col.names=F)
+    #saving second_data_set_tidy as a .txt file under "second-tidy.txt" filename
+    write.table(second_data_set_tidy, "second-tidy.txt", row.names=F, col.names=F)
 }
