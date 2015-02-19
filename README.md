@@ -12,6 +12,7 @@ This is a John Hopkins - Coursera course project submission. Data source: http:/
     * codebook.md -- Describes the variables, the data, and transformations that I did to clean up the data
     * run_analysis.R -- actual code
     * second_tidy.txt -- output file from run_analysis script
+    * data_files/ -- All the necessary data files for the script downloaded from the data source
 
 
 ### Goals of run_analysis.R script

@@ -36,71 +36,71 @@ The feature labels were tidied by removing the non alphanumeric characters e.g. 
 
 Finally, a second independent tidy dataset (180 obs & 68 vars) was created with the mean of each measurement for each of the six activities and each of the 30 subjects. The final output dataset has the following variables (Refer to "features_info.txt" for the descriptive variable names):
 
-     $ subjects                
-     $ activities              
-     $ tbodyaccmeanx           
-     $ tbodyaccmeany           
-     $ tbodyaccmeanz           
-     $ tbodyaccstdx            
-     $ tbodyaccstdy            
-     $ tbodyaccstdz            
-     $ tgravityaccmeanx        
-     $ tgravityaccmeany        
-     $ tgravityaccmeanz        
-     $ tgravityaccstdx         
-     $ tgravityaccstdy         
-     $ tgravityaccstdz         
-     $ tbodyaccjerkmeanx       
-     $ tbodyaccjerkmeany       
-     $ tbodyaccjerkmeanz       
-     $ tbodyaccjerkstdx        
-     $ tbodyaccjerkstdy        
-     $ tbodyaccjerkstdz        
-     $ tbodygyromeanx          
-     $ tbodygyromeany          
-     $ tbodygyromeanz          
-     $ tbodygyrostdx           
-     $ tbodygyrostdy           
-     $ tbodygyrostdz           
-     $ tbodygyrojerkmeanx      
-     $ tbodygyrojerkmeany      
-     $ tbodygyrojerkmeanz      
-     $ tbodygyrojerkstdx       
-     $ tbodygyrojerkstdy       
-     $ tbodygyrojerkstdz       
-     $ tbodyaccmagmean         
-     $ tbodyaccmagstd          
-     $ tgravityaccmagmean      
-     $ tgravityaccmagstd       
-     $ tbodyaccjerkmagmean      
-     $ tbodyaccjerkmagstd       
-     $ tbodygyromagmean         
-     $ tbodygyromagstd         
-     $ tbodygyrojerkmagmean    
-     $ tbodygyrojerkmagstd     
-     $ fbodyaccmeanx           
-     $ fbodyaccmeany           
-     $ fbodyaccmeanz           
-     $ fbodyaccstdx            
-     $ fbodyaccstdy            
-     $ fbodyaccstdz            
-     $ fbodyaccjerkmeanx       
-     $ fbodyaccjerkmeany       
-     $ fbodyaccjerkmeanz       
-     $ fbodyaccjerkstdx        
-     $ fbodyaccjerkstdy        
-     $ fbodyaccjerkstdz        
-     $ fbodygyromeanx          
-     $ fbodygyromeany          
-     $ fbodygyromeanz          
-     $ fbodygyrostdx           
-     $ fbodygyrostdy           
-     $ fbodygyrostdz           
-     $ fbodyaccmagmean         
-     $ fbodyaccmagstd          
-     $ fbodybodyaccjerkmagmean       
-     $ fbodybodyaccjerkmagstd  
-     $ fbodybodygyromagmean    
-     $ fbodybodygyromagstd     
-     $ fbodybodygyrojerkmagmean     
-     $ fbodybodygyrojerkmagstd
+     $ subjects                : int  
+     $ activities              : Factor 
+     $ tbodyaccmeanx           : num  
+     $ tbodyaccmeany           : num  
+     $ tbodyaccmeanz           : num  
+     $ tbodyaccstdx            : num  
+     $ tbodyaccstdy            : num  
+     $ tbodyaccstdz            : num  
+     $ tgravityaccmeanx        : num  
+     $ tgravityaccmeany        : num  
+     $ tgravityaccmeanz        : num  
+     $ tgravityaccstdx         : num  
+     $ tgravityaccstdy         : num  
+     $ tgravityaccstdz         : num  
+     $ tbodyaccjerkmeanx       : num  
+     $ tbodyaccjerkmeany       : num  
+     $ tbodyaccjerkmeanz       : num  
+     $ tbodyaccjerkstdx        : num  
+     $ tbodyaccjerkstdy        : num  
+     $ tbodyaccjerkstdz        : num  
+     $ tbodygyromeanx          : num  
+     $ tbodygyromeany          : num  
+     $ tbodygyromeanz          : num  
+     $ tbodygyrostdx           : num  
+     $ tbodygyrostdy           : num  
+     $ tbodygyrostdz           : num  
+     $ tbodygyrojerkmeanx      : num  
+     $ tbodygyrojerkmeany      : num  
+     $ tbodygyrojerkmeanz      : num  
+     $ tbodygyrojerkstdx       : num  
+     $ tbodygyrojerkstdy       : num  
+     $ tbodygyrojerkstdz       : num  
+     $ tbodyaccmagmean         : num  
+     $ tbodyaccmagstd          : num  
+     $ tgravityaccmagmean      : num  
+     $ tgravityaccmagstd       : num  
+     $ tbodyaccjerkmagmean     : num  
+     $ tbodyaccjerkmagstd      : num  
+     $ tbodygyromagmean        : num  
+     $ tbodygyromagstd         : num  
+     $ tbodygyrojerkmagmean    : num  
+     $ tbodygyrojerkmagstd     : num  
+     $ fbodyaccmeanx           : num  
+     $ fbodyaccmeany           : num  
+     $ fbodyaccmeanz           : num  
+     $ fbodyaccstdx            : num  
+     $ fbodyaccstdy            : num  
+     $ fbodyaccstdz            : num  
+     $ fbodyaccjerkmeanx       : num  
+     $ fbodyaccjerkmeany       : num  
+     $ fbodyaccjerkmeanz       : num  
+     $ fbodyaccjerkstdx        : num  
+     $ fbodyaccjerkstdy        : num  
+     $ fbodyaccjerkstdz        : num  
+     $ fbodygyromeanx          : num  
+     $ fbodygyromeany          : num  
+     $ fbodygyromeanz          : num  
+     $ fbodygyrostdx           : num  
+     $ fbodygyrostdy           : num  
+     $ fbodygyrostdz           : num  
+     $ fbodyaccmagmean         : num  
+     $ fbodyaccmagstd          : num  
+     $ fbodybodyaccjerkmagmean : num  
+     $ fbodybodyaccjerkmagstd  : num  
+     $ fbodybodygyromagmean    : num  
+     $ fbodybodygyromagstd     : num  
+     $ fbodybodygyrojerkmagmean: num  
+     $ fbodybodygyrojerkmagstd : num 
